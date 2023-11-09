@@ -201,3 +201,6 @@ include_directories(
 catkin_install_python(PROGRAMS src/rtsp_driver_node
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+
+# Mark launch folder for installation
+install(DIRECTORY launch DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
