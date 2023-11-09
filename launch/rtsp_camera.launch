@@ -9,7 +9,7 @@
     <arg name="hostname" doc="hostname or IP of the rtsp camera" default="" />
     <arg name="username" doc="username for the rtsp camera" default="" />
     <arg name="password" doc="password for the rtsp camera" default="" />
-    <arg name="port" default="554" doc="port of the rtsp camera" default="" />
+    <arg name="port" doc="port of the rtsp camera" default="554" />
     <arg name="stream" doc="name of the video stream published by the rtsp camera" default="" />
 
     <group ns="$(arg camera_name)">
